@@ -8,7 +8,7 @@
 | Compatible Android 9+ devices        | ✅ Required                                                                  |
 | Super Admin access on domain         | ✅ Required                                                                  |
 | Separate MDM (e.g., Intune, WorkSpace ONE)     | ⚠️ Not required for portal creation, but needed for actual device management |
-
+|A zero-touch account|A zero-touch account created by an authorized zero-touch reseller partner|
 
 ---
 ---
@@ -20,6 +20,27 @@
 | **Domain type**         | Google Workspace (paid) or Cloud Identity Free                                                                                     |
 | **Why needed**          | The Zero Touch customer account is tied to a Google organization. You sign into the portal with an admin account from this domain. |
 | **Gmail.com addresses** | ❌ Not supported — you need a custom domain (e.g., `admin@yourcompany.com`)                                                         |
+
+### Associate a Google Account
+If you don't have a Google Account associated with your corporate email, follow the steps below:
+
+1. Go to Create your Google Account.
+
+2. Enter your name.
+
+3. Set Your email address to your corporate email. Don't click Create a new Gmail address instead.
+
+4. Complete the remaining account information.
+
+5. Click Next.
+
+6. Follow the on-screen instructions to finish creating your account.
+
+When you sign in to the zero-touch enrollment portal, it's best to enable **2-Step Verification** on an account like this that's used for administrative purposes. 2-step verification adds an extra layer of security to your account.
+
+See the Google Account Help Center to help you and learn more about your new account.
+
+
 
 ## An Authorized Zero Touch Reseller or Direct Google Relationship
 | Path                        | How It Works                                                                                                                                                    |
@@ -62,3 +83,6 @@ If the customer organization already uses Google Workspace or Cloud Identity, yo
 | Zero Touch service itself         | **Free** — Google does not charge for Zero Touch enrollment |
 | Compatible devices                | Regular device cost (no premium for Zero Touch capability)  |
 
+
+References
+[Zero-touch enrollment for IT admins](https://support.google.com/work/android/answer/7514005?hl=en)
