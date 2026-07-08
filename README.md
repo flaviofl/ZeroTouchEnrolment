@@ -7,3 +7,15 @@ Android Zero Touch Enrolment
 - Zero Touch compatible devices (Android 9.0+ from supported manufacturers)
 - Zero Touch Enrolment devicea reseller
 
+
+
+
+## Useful Zero Touch URLs
+
+| Purpose         | URL                                                            |
+| --------------- | -------------------------------------------------------------- |
+| Customer portal | `https://enterprise.google.com/android/zero-touch/customers/`  |
+| Reseller portal | `https://enterprise.google.com/android/zero-touch/resellers/`  |
+| Help Center     | `https://support.google.com/work/android/answer/7514005?hl=en` |
+
+
