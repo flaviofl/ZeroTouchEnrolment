@@ -1,5 +1,14 @@
 # Adding devices to ZTE
 
+## Who Can Add Devices?
+| Role                           | Can Add Devices? | How                                                                            |
+| ------------------------------ | ---------------- | ------------------------------------------------------------------------------ |
+| **Customer/IT Admin**          | ❌ No             | Can only view, assign configurations, and manage devices already in the portal |
+| **Authorized Reseller/Vendor** | ✅ Yes            | Uploads IMEIs/serials to the Zero Touch system via the **reseller portal**     |
+| **Google (direct customers)**  | ✅ Yes            | Large enterprises buying directly from Google can have devices pre-loaded      |
+
+---
+
 ## How to get new purchased devices added to ZTE
 Requires the ZTE configured
 Inform the reseller during purchase to add devices to the customer zero touch account

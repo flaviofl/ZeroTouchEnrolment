@@ -13,7 +13,7 @@
 ---
 ---
 
-### 1. A Google Workspace or Cloud Identity Domain
+## A Google Workspace or Cloud Identity Domain
 
 | Requirement             | Details                                                                                                                            |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -21,13 +21,13 @@
 | **Why needed**          | The Zero Touch customer account is tied to a Google organization. You sign into the portal with an admin account from this domain. |
 | **Gmail.com addresses** | ❌ Not supported — you need a custom domain (e.g., `admin@yourcompany.com`)                                                         |
 
-### 2. An Authorized Zero Touch Reseller or Direct Google Relationship
+## An Authorized Zero Touch Reseller or Direct Google Relationship
 | Path                        | How It Works                                                                                                                                                    |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Via authorized reseller** | Most common. Purchase Android devices from a reseller who is a Google Zero Touch partner. They create the customer account association and upload your devices. |
 | **Direct with Google**      | Large enterprises buying devices directly from Google can get set up without a reseller intermediary.                                                           |
 
-### 3. Compatible Devices
+## Compatible Devices
 
 | Requirement              | Details                                                                                             |
 | ------------------------ | --------------------------------------------------------------------------------------------------- |
@@ -35,7 +35,7 @@
 | **Manufacturer support** | Device OEM must participate in Google's Zero Touch program                                          |
 | **Device origin**        | Must be purchased through an authorized channel — retail/consumer devices typically cannot be added |
 
-### 4. Admin Permissions
+## Super Admin Permissions
 
 | Requirement               | Details                                                                                                                   |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -52,7 +52,7 @@
 
 
 ## If You Already Have a Domain
-If the customer organization already uses Google Workspace or Cloud Identity, you can likely use the existing domain. 
+If the customer organization already uses Google Workspace or Cloud Identity, you can likely use the existing domain.    
 ⚠️ The key step is ensuring the device reseller knows to associate purchases with that domain.
 
 ## Cost

@@ -23,3 +23,13 @@ In your Zero Touch customer portal, you can create multiple configurations:
 
 Then assign devices (or batches) to whichever configuration you need.
 
+
+---
+## Consolidating to One Zero Touch Account
+
+### How It Works
+Use one Google Workspace domain (e.g., android@yourcompany.com) to own the single Zero Touch customer account. Then:  
+1. Bind each MDM to its own Android Enterprise organization using the same Google domain?   
+❌ No — Android Enterprise enrollment binds one MDM per Google Play Managed Domain. You can't have multiple MDMs under one Google domain for AE.
+2. Alternative: Use one Zero Touch account with multiple configurations pointing to different MDMs   
+✅ Yes, this works! Zero Touch doesn't require the MDM to be bound to the same Google domain. The configuration just needs valid DPC extras.
